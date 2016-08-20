@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="js/style.css" />
+		<script src="js/move-model.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="layout">
+				<img src="img/logo.png" class="logo"/>
+				<img src="img/Z_app1.gif" class="gif" />
+				<ul class="nav">
+					<li><a href="#" class="first">首页</a></li>
+					<li>
+						<a href="#">作品<b></b></a>
+						<ul class="works">
+							<li><a href="javascript:;">全部</a></li>
+							<li><a href="javascript:;">平面</a></li>
+							<li><a href="javascript:;">UI</a></li>
+							<li><a href="javascript:;">网页</a></li>
+							<li><a href="javascript:;">插画</a></li>
+							<li><a href="javascript:;">动漫</a></li>
+							<li><a href="javascript:;">摄影</a></li>
+							<li><a href="javascript:;">空间/建筑</a></li>
+							<li><a href="javascript:;">工业/产品</a></li>
+							<li><a href="javascript:;">三维</a></li>
+							<li><a href="javascript:;">影视</a></li>
+							<li><a href="javascript:;">手工艺</a></li>
+							<li><a href="javascript:;">纯艺术</a></li>
+							<li><a href="javascript:;">服装</a></li>
+							<li><a href="javascript:;">其他</a></li>
+						</ul>
+					</li>
+					<li><a href="#">文章</a></li>
+					<li>
+						<a href="#">工具<b></b></a>
+						<ul class="tools">
+							<li><a href="javascript:;">搜素材</a></li>
+							<li><a href="javascript:;">灵感/欣赏</a></li>
+							<li><a href="javascript:;">NewTab</a></li>
+						</ul>
+					</li>
+					<li><a href="#">招聘</a></li>
+					<li>
+						<a href="#">赛事</a>
+					</li>
+					<li>
+						<a href="#">更多<b></b></a>
+						<ul class="more">
+							<li><a href="javascript:;">活动</a></li>
+							<li><a href="javascript:;">酷友/设计师</a></li>
+							<li><a href="javascript:;">酷友精彩评论</a></li>
+							<li><a href="javascript:;">站酷专题</a></li>
+							<li><a href="javascript:;">海洛创意</a></li>
+							<li><a href="javascript:;">高高手</a></li>
+							<li><a href="javascript:;">站酷客户端</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="header_right">
+					<input type="text" class="txt" id="text" />
+					<a href="#" class="bs"></a>
+					<a href="#">登录</a>|<a href="#">注册</a>
+					<ul id="kinds">
+						<li><input type="radio" name="page" id="fo1" checked /><label for="fo1">全部</label></li>
+						<li><input type="radio" name="page" id="fo2" /><label for="fo2">作品</label></li>
+						<li><input type="radio" name="page" id="fo3" /><label for="fo3">文章</label></li>
+						<li><input type="radio" name="page" id="fo4" /><label for="fo4">欣赏</label>	</li>
+						<li><input type="radio" name="page" id="fo5" /><label for="fo5">素材</label></li>
+						<li><input type="radio" name="page" id="fo6" /><label for="fo6">设计师</label></li>
+						<li><input type="radio" name="page" id="fo7" /><label for="fo7">正版图片</label></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="banner">
+			<div class="layout">
+				<ul id="banner1">
+					<li><a href="#"><img src="img/banner1.jpg" /></a></li>
+					<li><a href="#"><img src="img/banner2.jpg" /></a></li>
+					<li><a href="#"><img src="img/banner3.jpg" /></a></li>
+					<li><a href="#"><img src="img/banner4.jpg" /></a></li>
+					<li><a href="#"><img src="img/banner5.jpg" /></a></li>
+					<li><a href="#"><img src="img/banner6.jpg" /></a></li>
+				</ul>
+				<a href="javascript:;" id="left"></a>
+				<a href="javascript:;" id="right"></a>
+			</div>
+		</div>
+		<!--adv-->
+		<div class="layout">
+			<div class="adv">
+				<div class="trends">
+					<a href="#">酷友最新动态：</a>
+				</div>
+				<ul>
+					<li><a href="#"><img src="img/adv1.jpg" /></a></li>
+					<li><a href="#"><img src="img/adv2.jpg" /></a></li>
+					<li><a href="#"><img src="img/adv3.jpg" /></a></li>
+					<li><a href="#"><img src="img/adv4.jpg" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--service-->
+		<div class="layout">
+			<div id="service">
+				<div class="service_t">
+					<h2>站酷旗下品牌/服务推荐</h2>
+					<a href="javascript:;" id="close"></a>
+					<a href="javascript:;">搜灵感</a>
+				</div>
+				<dl>
+					<dt class="bg1"></dt>
+					<dd><a href="#"><strong>海洛创意</strong></a></dd>
+					<dd><a href="#"><span>提供高质量创意图片</span></a></dd>
+				</dl>
+				<dl>
+					<dt id="pos1"  class="bg1"></dt>
+					<dd><a href="#"><strong>海洛创意</strong></a></dd>
+					<dd><a href="#"><span>提供高质量创意图片</span></a></dd>
+				</dl>
+				<dl id="sao">
+					<img src="img/app-code.png" />
+					<dt id="pos2"><img src="img/service2.png" /></dt>
+					<dd class="top1"><a href="#"><strong>海洛创意</strong></a></dd>
+					<dd><a href="#"><span>提供高质量创意图片</span></a></dd>
+				</dl>
+				<dl>
+					<dt id="pos3" class="bg1"></dt>
+					<dd><a href="#"><strong>海洛创意</strong></a></dd>
+					<dd><a href="#"><span>提供高质量创意图片</span></a></dd>
+				</dl>
+				<dl>
+					<dt id="pos4" class="bg1"></dt>
+					<dd><a href="#"><strong>海洛创意</strong></a></dd>
+					<dd><a href="#"><span>提供高质量创意图片</span></a></dd>
+				</dl>
+			</div>
+		</div>
+		<!--introduce-->
+		<div class="layout">
+			<div class="intro">
+				<h2>最新原创推荐</h2>
+				<span> 首推不只是一种认可，还是一种态度！</span>
+				<a href="#" class="intro_r">发表文章</a>
+				<a href="#" class="intro_l">发表作品</a>
+			</div>
+			<div class="introduce">
+				<ul id="list">
+					
+				</ul>
+			</div>
+			<div class="page">
+				<div id="page1">
+					<a href="javascript:;" id="prev">prev</a>
+					<span>
+					
+					</span>
+					<a href="javascript:;" id="next">next</a>
+					<span class="jump">跳转到：</span>
+					<input type="text" id="txt" value="" />
+					<a href="javascript:;" id="go">GO</a>
+				</div>
+			</div>
+		</div>
+		<!--toTop-->
+		<div id="toTop">
+			<a href="javascript:;"></a>
+			<span></span>
+			<img src="img/zcwx.png" id="z_app1"/>
+			<img src="img/goTopZcool.png" id="goTop"/>
+		</div>
+		<!--secret-->
+		<div class="layout">
+			<a href="javascript:;"><img src="img/secret.jpg"/></a>
+		</div>
+		<!--icon-->
+		<div class="layout">
+			<div class="icon">
+				<div id="icon_l" class="icon_l">
+					<h4><strong>推荐设计师</strong><a href="javascript:;">更多&gt;&gt;</a></h4>
+					<dl>
+						<dt><img src="img/34.jpg"/></dt>
+						<dd><a href="javascript:;"><span>没电的火牛</span></a></dd>
+						<dd><span>深圳 / 摄影师</span></dd>
+						<dd><span>粉丝：2724 / 作品：78</span></dd>
+					</dl>
+					<dl>
+						<dt><img src="img/35.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/36.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/37.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/38.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/4.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+				</div>
+				<div id="icon_c" class="icon_l">
+					<h4><strong>活跃设计师</strong><a href="javascript:;">更多&gt;&gt;</a></h4>
+					<dl>
+						<dt><img src="img/5.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/6.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/7.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/8.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/9.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/34.jpg"/></dt>
+						<dd><a href="javascript:;">没电的火牛</a></dd>
+						<dd>深圳 / 摄影师</dd>
+						<dd>粉丝：2724 / 作品：78</dd>
+					</dl>
+				</div>
+				<div id="icon_r" class="icon_r">
+					<h4>
+						<strong>好职位在站酷</strong>
+						<span>企业找到好设计师，设计师找到好工作</span>
+						<a href="javascript:;">更多&gt;&gt;</a>
+						<a href="javascript:;">发布招聘广告<span>|</span></a>
+					</h4>
+					<ul>
+						<li><a href="javascript:;">[上海] 召集设计小鲜肉！设计师们请快来！</a></li>
+						<li><a href="javascript:;">[上海] 想象无所不及!</a></li>
+						<li><a href="javascript:;">[上海] 期待和你成为同事</a></li>
+						<li><a href="javascript:;">[上海] 像野兽一样狂奔！</a></li>
+						<li><a href="javascript:;">[深圳] 上市内衣公司寻创意牛人/平面高手/UI高手！</a></li>
+						<li><a href="javascript:;">[北京] 我们要的就是年轻有想法的你！</a></li>
+						<li><a href="javascript:;">[金华] we want  you ,come on!</a></li>
+						<li><a href="javascript:;">[北京] HI!一起干大事吧！</a></li>
+						<li><a href="javascript:;">[北京] 让创意实现你的价值</a></li>
+						<li><a href="javascript:;">[厦门] 美锐专注提升每个伙伴工作中幸福感</a></li>
+						<li><a href="javascript:;">[深圳] 对审美的坚持，一起玩物，团队小而美</a></li>
+						<li><a href="javascript:;">[北京] EverMotion邀你来踢馆！</a></li>
+						<li><a href="javascript:;">[北京] 快来加入我们吧！</a></li>
+						<li><a href="javascript:;">[佛山] 心胸有多大，您的舞台就有多大</a></li>
+						<li><a href="javascript:;">[广州] 加入尖叫吧，我们一起尖叫！</a></li>
+						<li><a href="javascript:;">[北京] 推广时尚产业   视觉营销为”鲜“</a></li>
+					</ul>
+					<img src="img/24.jpg"/>
+					<img src="img/41.jpg"/>
+					<img src="img/40.jpg"/>
+					<img src="img/39.jpg"/>
+				</div>
+			</div>
+		</div>
+		<!--graduation-->
+		<div class="layout">
+			<div class="graduation">
+				<img src="img/graduation.jpg"/>
+			</div>
+		</div>
+		<!--search-->
+		<div class="search">
+			<div id="search">
+				<a href="javascript:;">
+					<span>全部</span>
+					<b></b>
+					<ul class="ul1">
+						<li><a href="javascript:;">全部</a></li>
+						<li><a href="javascript:;">作品</a></li>
+						<li><a href="javascript:;">文章</a></li>
+						<li><a href="javascript:;">欣赏</a></li>
+						<li><a href="javascript:;">素材</a></li>
+						<li><a href="javascript:;">设计师</a></li>
+					</ul>
+				</a>
+				<input type="text" class="txt1" value="" />
+				<input type="text" class="txt2" value="" />
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="layout">
+				<ul>
+					<li><a href="javascript:;">关于</a></li>
+					<li><a href="javascript:;">关于站酷</a></li>
+					<li><a href="javascript:;">版权声明</a></li>
+					<li><a href="javascript:;">关于隐私</a></li>
+					<li><a href="javascript:;">免责声明</a></li>
+					<li><a href="javascript:;">网站地图</a></li>
+					<li><a href="javascript:;">加入站酷</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">栏目</a></li>
+					<li><a href="javascript:;">原创作品</a></li>
+					<li><a href="javascript:;">设计文章</a></li>
+					<li><a href="javascript:;">设计赛事</a></li>
+					<li><a href="javascript:;">精彩评论</a></li>
+					<li><a href="javascript:;">海洛创意</a></li>
+					<li><a href="javascript:;">站酷高高手</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">商务</a></li>
+					<li><a href="javascript:;">企业服务</a></li>
+					<li><a href="javascript:;">赛事服务</a></li>
+					<li><a href="javascript:;">招聘服务</a></li>
+					<li><a href="javascript:;">图片服务</a></li>
+					<li><a href="javascript:;">培训服务</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">联系</a></li>
+					<li><a href="javascript:;">在线提问</a></li>
+					<li><a href="javascript:;">联系我们</a></li>
+					<li><a href="javascript:;">站酷微博</a></li>
+					<li><a href="javascript:;" class="app">站酷微信</a><img src="img/zcwx.png" class="app_img"/></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">帮助</a></li>
+					<li><a href="javascript:;">站酷规则</a></li>
+					<li><a href="javascript:;">常见问题</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">友链</a></li>
+					<li><a href="javascript:;">中电云集</a></li>
+					<li><a href="javascript:;">星云网</a></li>
+					<li><a href="javascript:;">站长之家</a></li>
+					<li><a href="javascript:;">蜂鸟网</a></li>
+					<li><a href="javascript:;">更多</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">版权信息</a></li>
+					<li><span>站酷（ZCOOL）会员所发布展示的“原创作品/文章”版权归原作者所有，任何商业用途均须联系作者。
+						如未经授权用作他处，作者将保留追究侵权者法律责任的权利。</span></li>
+					<li><a href="javascript:;">京ICP备11017824号-4</a> <span>/</span> <a href="javascript:;">京ICP证130164号</a></li>
+					<li><span>北京市公安局朝阳分局备案编号:110105000501Copyright&copy;2006-2016 <a href="javascript:;">ZCOOL</a></span></li>
+				</ul>
+			</div>
+		</div>
+		<script>
+			//header
+			var oText = document.getElementById("text");
+			var oKinds = document.getElementById("kinds");
+			oKinds.onmouseover = oText.onmouseover = function(){
+				oKinds.style.display = "block";
+			}
+			oKinds.onmouseout = oText.onmouseout = function(){
+				oKinds.style.display = "none";
+			}
+			//banner
+			var oBanner_1 = document.getElementById("banner1");
+			var aLi = oBanner_1.getElementsByTagName("li");
+			var lt = document.getElementById("left");
+			var rg = document.getElementById("right");
+			var timer = null;
+			var iNow = 0;
+			var zIndex = 2;
+			function cut(){
+				aLi[iNow].style.zIndex = zIndex++;
+				aLi[iNow].style.opacity = 0;
+				aLi[iNow].style.filter = "alpha(opacity=0)";
+				startMove(aLi[iNow],{"opacity":100});
+			}
+			lt.onclick = function(){
+				if(iNow == 0){
+					iNow = aLi.length - 1;
+				}else{
+					iNow --;
+				}
+				cut();
+			}
+			rg.onclick = function(){
+				if(iNow == aLi.length - 1){
+					iNow = 0;
+				}else{
+					iNow ++;
+				}	
+				cut();
+			}
+			clearInterval(timer);
+			timer = setInterval(rg.onclick,3000);
+			oBanner_1.onmouseover = function(){
+				clearInterval(timer);
+			}
+			oBanner_1.onmouseout = function(){
+				timer = setInterval(rg.onclick,3000);
+			}
+			//adv
+			/*function ajax(url,fn){
+				var xhr = new XMLHttpRequest();
+			xhr.open("get","data/adv.json",true);
+			xhr.onreadystatechange = function(){
+				if(xhr.readyState == 4 && xhr.status == 200){
+					var info = JSON.parse(xhr.responseText);
+					//console.log(info.introduce);
+					fn;
+				}
+			}
+			xhr.send(null);
+			}*/
+			//close
+			var oClose = document.getElementById("close");
+			var oService = document.getElementById("service");
+			oClose.onclick = function(){
+				oService.style.overflow = "hidden";
+				startMove(oService,{"height":0});
+			}
+			//introduce
+			var oList = document.getElementById("list");
+			var oPage1 = document.getElementById("page1");
+			var oSpan = oPage1.getElementsByTagName("span")[0];
+			//ajax("data/adv.json",succ_Fn(info.introduce))
+			var xhr = new XMLHttpRequest();
+			xhr.open("get","data/adv.json",true);
+			xhr.onreadystatechange = function(){
+				if(xhr.readyState == 4 && xhr.status == 200){
+					var info = JSON.parse(xhr.responseText);
+					//console.log(info.introduce);
+					succ_Fn(info.introduce);
+				}
+			}
+			xhr.send(null);
+			var page = 0;
+			var pageNum = 20;
+			function succ_Fn(res){
+				var pageS = Math.ceil(res.length / pageNum);
+				//console.log(pageS);
+				var html = "";
+				for(var i = page * pageNum;i < page * pageNum + pageNum;i++){
+					if(i < res.length){
+						html += '<li><a href="#"><img src="'+ res[i].src +'" /></a><div class="type"><p><a href="#">'+ res[i].intro +'</a></p><div class="type1"><b><a href="#">原创作品</a></b><span>-</span><a href="#">'+ res[i].type +'</a><span>-</span><a href="#">'+ res[i].childType +'</a><br /><span>'+ res[i].time +'</span>小时前上传<br /><span class="colr">'+ res[i].popularity +'</span>人气<span>/</span><span class="colr">'+ res[i].comment +'</span>评论<span>/</span><span class="colr">'+ res[i].recommend +'</span>推荐<p><a href="#"><img src="'+ res[i].play +'" class="play"/></a><a href="#"><img src="'+ res[i].header +'"  class="img_link"/></a><a href="#" class="author">'+ res[i].author +'</a></p></div></div></li>'
+					}
+				}
+				oList.innerHTML = html;
+				oSpan.innerHTML = "";
+				for(var i = 0;i < pageS;i++){
+					var a = document.createElement("a");
+					a.innerHTML = i + 1;
+					a.href = "javascript:;";
+					oSpan.appendChild(a);
+				}
+				//console.log(oSpan)
+				var as = oSpan.getElementsByTagName("a");
+				//console.log(as);
+				//console.log(as.length)
+				as[page].style.backgroundPosition = "left -111px";
+				for(var i = 0;i < as.length;i++){
+					//console.log(1);
+					as[i].index = i;
+					as[i].onclick = function(){
+						//console.log(2);
+						page = as[this.index].innerHTML - 1;
+						//console.log(page);
+						succ_Fn(res);
+					}
+				}
+				var oGo = document.getElementById("go");
+				oGo.onclick = function(){
+					var oTxt = document.getElementById("txt").value;
+					page = oTxt - 1;
+					succ_Fn(res);
+				}
+				var oPrev = document.getElementById("prev");
+				var oNext = document.getElementById("next");
+				oPrev.onclick = function(){
+					//console.log(3);
+					if(page != 0){
+						page--;
+					}
+					succ_Fn(res);
+				}
+				oNext.onclick = function(){
+					if(page != pageS - 1){
+						page++;
+					}
+					succ_Fn(res);
+				}
+			}
+			//toTop
+			var toTop = document.getElementById("toTop");
+			var goTop = document.getElementById("goTop");
+			var oAcode = toTop.getElementsByTagName("a")[0];
+			var oClose2 = toTop.getElementsByTagName("span")[0];
+			var oZapp1 = document.getElementById("z_app1");
+			goTop.onclick = function(){
+				var timer = null;
+				clearInterval(timer);
+				timer = setInterval(function(){
+					var current = document.documentElement.scrollTop || document.body.scrollTop || 0;
+					if(current == 0){
+						clearInterval(timer);
+						return;
+					}
+					var dis = 0 - current;
+					var speed = dis > 0 ? Math.ceil(dis/6):Math.floor(dis/6);
+					document.documentElement.scrollTop = current + speed;
+					document.body.scrollTop = current + speed;
+				},30)
+			}
+			oZapp1.onmouseover = oAcode.onmouseover = function(){
+				oZapp1.style.display = "block";
+			}
+			oZapp1.onmouseout = oAcode.onmouseout = function(){
+				oZapp1.style.display = "none";
+			}
+			oClose2.onclick = function(){
+				oClose2.style.display = oAcode.style.display = "none";
+			}
+			//sao
+			var sao = document.getElementById("sao");
+			var oImg = sao.getElementsByTagName("img");
+			//console.log(oImg);
+			sao.onmouseover = oImg[1].onmouseover = function(){
+				oImg[0].style.display = "block";
+			}
+			sao.onmouseout = oImg[1].onmouseout = function(){
+				oImg[0].style.display = "none";
+			}
+		</script>
+	</body>
+</html>
